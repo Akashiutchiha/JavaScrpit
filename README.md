@@ -1,1 +1,1 @@
-# Weather-app
+# Weather-app [![wakatime](https://wakatime.com/badge/user/1e5298dd-76dc-469c-b56c-3e10e8038f0b/project/9a33cfff-2cfd-4519-b020-985b77ce4e6b.svg)](https://wakatime.com/badge/user/1e5298dd-76dc-469c-b56c-3e10e8038f0b/project/9a33cfff-2cfd-4519-b020-985b77ce4e6b)
