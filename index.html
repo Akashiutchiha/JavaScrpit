@@ -44,6 +44,11 @@ console.log(next.nextSibling)
 console.log(first);
 console.log(first.childNodes);
 
+const newPa = document.createElement('div') //creating a new div element 
+newPa.id = "newPa"  //Setting an id attribute
+newPa.innerHTML = "This is the new paragraph" //Putting in some text using the innerHTML
+document.getElementById('myP').appendChild(newPa) //adding the div to the html page using appendChild()
+// method
 
 
 </script>
