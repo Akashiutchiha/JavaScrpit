@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const div = document.createElement('div') 
+        const text = document.createTextNode(`angages basés sur
+ECMAScript :`)
+const p = document.createElement('p').appendChild(text)
+
+        var ulitem = document.createElement('ul'), ul;
+                
+
+        const names = [document.createTextNode('JavaScript'),
+         document.createTextNode('JScript'),
+          document.createTextNode('ActionScript'),
+           document.createTextNode('EX4'),
+           "hello"
+        ]
+        for (var i = 0; i < 4; i++){
+            ul = document.createElement('li')
+            ul.appendChild(names[i])
+            ulitem.appendChild(ul)
+        }
+        div.appendChild(p)
+        div.appendChild(ulitem)
+        document.body.appendChild(div)
+
+    </script>
+</body>
+</html>
