@@ -7,16 +7,47 @@
     <title>Document</title>
 </head>
 <body>
-    <div><a href="" id="">Hello world</a></div>
+
+    <script>
+        // Creating the Nodes and the text elements
+        const textnodes = [
+            document.createTextNode('Le'),
+            document.createTextNode(" World wide web consortium"),
+            document.createTextNode(" abrege par le sigle "),
+            document.createTextNode(' WC3'),
+            document.createTextNode(' est un'),
+            document.createTextNode(' organsime de standardisation'),
+            document.createTextNode(` but non-lucratif chargé de promouvoir la compatibilité des
+technologies du`),
+            document.createTextNode('World Wide Web')
+        ];
+        
+        const div = document.createElement("div")
+        const strong1 = document.createElement("strong");
+        const strong2 = document.createElement("strong");
+
+        const a1 = document.createElement('a')
+        const a2 = document.createElement('a')
+
+        a1.href = "http://fr.wikipedia.org/wiki/World_Wide_Web"
+        a2.href = "http://fr.wikipedia.org/wiki/Organisme_de_normalisation"
+
+
+        // Appending them as child nodes
+        div.appendChild(textnodes[0])
+        div.appendChild(strong1).appendChild(textnodes[1])
+        div.appendChild(textnodes[2])
+        div.appendChild(strong2).appendChild(textnodes[3])
+        div.appendChild(textnodes[4])
+        div.appendChild(a1).appendChild(textnodes[5])
+        div.appendChild(textnodes[6])
+        div.appendChild(a2).appendChild(textnodes[7])
+        // div.appendChild(textnodes[8])
+
+
+
+        document.body.appendChild(div)
+
+    </script>
 </body>
-<script>
-    document.querySelector('div').addEventListener("click", function delet(){
-        const div = document.querySelector('div');
-        div.removeChild(div)
-    });
-
-
-    
-
-</script>
 </html>
