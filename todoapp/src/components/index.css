@@ -27,10 +27,11 @@ code {
 
 .plus{
   padding-right: 15px;
+  font-weight: bold;
 }
 
 .Note{
-  height: 150px;
+  height: 180px;
   width: 200px;
   box-shadow: black 0px 0px 10px;
   margin: 10px;
@@ -40,6 +41,8 @@ code {
 
 .notes{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .delete{
   background-color: #f5ba13;
@@ -53,7 +56,16 @@ code {
   margin-left: 110px;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 .delete i{
   margin-left: 3px;
+}
+
+.title{
+  font-size: 15px;
+  font-weight: bold;
+}
+.content{
+  font-size: 12px;
 }
