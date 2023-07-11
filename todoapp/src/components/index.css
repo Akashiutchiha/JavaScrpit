@@ -28,3 +28,32 @@ code {
 .plus{
   padding-right: 15px;
 }
+
+.Note{
+  height: 150px;
+  width: 200px;
+  box-shadow: black 0px 0px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.notes{
+  display: flex;
+}
+.delete{
+  background-color: #f5ba13;
+  color: white;
+  justify-content: left;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  margin-left: 110px;
+  justify-content: center;
+  align-items: center;
+}
+.delete i{
+  margin-left: 3px;
+}
