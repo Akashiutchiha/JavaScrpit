@@ -70,10 +70,17 @@ code {
   margin-left: 110px;
   justify-content: center;
   align-items: center;
-  position: a;
+  padding-top: 2px;
 }
+
+
 .delete i{
   margin-left: 3px;
+}
+
+.bi-trash-fill{
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .title{
