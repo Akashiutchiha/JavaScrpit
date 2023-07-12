@@ -1,16 +1,25 @@
 import '../components/App.css';
 import Header from './header';
 import Note from './note';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CreateNote from './createnote';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className='notes'>
-      <Note />
+    <Router>
+      <div className="App">
+        <Header />
+        <div className='notes'>
+          <Routes>
+            <Route path="/" element={<Note></Note>} />
+            <Route path="/add" element={<CreateNote/>}/>
+            
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
