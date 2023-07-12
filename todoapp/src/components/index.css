@@ -37,13 +37,27 @@ code {
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
+  background-color: white;
 }
 
 .notes{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 100%;
 }
+
+.notes1{
+  height: 89vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url("../../public/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .delete{
   background-color: #f5ba13;
   color: white;
@@ -88,7 +102,9 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 89vh;
+  width: 100vw;
+  
 }
 
 .create {

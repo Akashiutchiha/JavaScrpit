@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className='notes'>
+        <div className='notes1'>
           <Routes>
             <Route path="/" element={<Note></Note>} />
             <Route path="/add" element={<CreateNote/>}/>
