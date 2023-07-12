@@ -145,5 +145,33 @@ code {
   width: 100%;
   box-sizing: border-box;
   height: 100px;
+}
 
+ .back-arrow {
+  font-size: 24px;
+  color: #f5ba13;
+  margin-right: 16px;
+}
+
+.back-arrow:hover {
+  color: #fff;
+  cursor: pointer;
+} 
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title{
+  margin-right: 105px;
+}
+.bi{
+  padding-bottom: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
