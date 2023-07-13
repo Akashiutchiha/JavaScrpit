@@ -24,36 +24,6 @@
       "key": 5,
       "title": "Big ideas",
       "content": "Eat more sushi"
-    },
-    {
-      "key": 6,
-      "title": "Functions",
-      "content": "Why do programmers prefer dark mode? Because light attracts bugs."
-    },
-    {
-      "key": 7,
-      "title": "Debugging",
-      "content": "Debugging is like being a detective in a crime movie where you're also the murderer."
-    },
-    {
-      "key": 8,
-      "title": "Coding Standards",
-      "content": "The best thing about a boolean is even if you are wrong, you are only off by a bit."
-    },
-    {
-      "key": 9,
-      "title": "Programming Languages",
-      "content": "There are only two kinds of programming languages: those people always bitch about and those nobody uses."
-    },
-    {
-      "key": 10,
-      "title": "Software Testing",
-      "content": "If at first, you don't succeed, call it version 1.0"
-    },
-    {
-      "id": 105,
-      "title": "hellom greet all the home",
-      "content": "Start with your parents then the elders and end with the children"
     }
   ]
 }

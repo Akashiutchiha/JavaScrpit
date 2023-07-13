@@ -18,18 +18,11 @@ const Note = () => {
         })
     }, [])
 
-    // const handledelete = (id) => {
-    //     fetch('http://localhost:8000/notes/' + id, {
-    //         method: 'DELETE'
-    //     }).then(() => {
-    //         const newnotes = notes.filter(note => note.id !== id)
-    //         setNote(newnotes)
-    //     })
-    // }
+    
     
     return ( 
         <div className='notes1'>
-            {notes && <NoteList notes={notes} />}
+            {notes && <NoteList notes={notes}/>}
         </div>
     )  
 }

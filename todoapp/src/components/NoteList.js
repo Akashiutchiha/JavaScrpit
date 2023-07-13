@@ -1,12 +1,16 @@
+import { useState } from 'react';
+
 const NoteList = (props) => {
 
+    
     const notes = props.notes
-    const deleteNote = props.delete
+    
+
 
     
 
     return ( 
-     <div className="notes1">
+    <div className="notes1">
         {notes.map((note)=>(<div key={note.id} className="Note">
         <p className="title">{note.title}</p>
         <p className="content">{note.content}</p>
@@ -15,8 +19,9 @@ const NoteList = (props) => {
             <i className="bi bi-trash-fill"></i>
         </div>
     </div>))}
-     </div>
+    </div>
     );
 }
- 
+
+
 export default NoteList;
